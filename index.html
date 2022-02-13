@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- PAGE INFORMATION -->
+    <meta charset="UTF-8" />
+    <!-- MOVILE METAS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITTLE - ICON -->
+    <title>Kevin D. Kling</title>
+    <link rel="shortcut icon" href="icons/ico.png">
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Vollkorn&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <nav class="nav-main">
+      <ul class="nav-menu">
+        <li><a href="#mi_about_me">Sobre Mi</a></li>
+        <li><a href="#mi_skill_set">Conocimientos</a></li>
+        <li><a href="#mi_projects">Proyectos</a></li>
+        <li><a href="#mi_contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <!-- NAV -->
+      
+      <!-- ABOUT ME -->
+      <section class="about-me" id="mi_about_me">
+        <div class="about-content">
+          <h2 class="hello-world">Hello World !!!</h2>
+          <h1>Yo soy Kevin <span>D.</span> Kling</h1>
+          <p>
+            Joven organizado, metódico y proactivo. Me gusta el aprendizaje constante y potenciar los resultados trabajando en equipo. Poseo conocimiento básico que adquirí de forma autodidacta y realizando algunos cursos como Argentina Programa o en paginas como Udemy, en HTML, CSS, JavaScript y Java, este ultimo es con el cual mas disfruto y me entretengo.
+          </p>
+          <a href="download/cv.pdf" download="Kevin Kling CV" class="btn">CV <i class="fas fa-arrow-down"></i></a>
+          <a href="mailto:kevin.99.kling@outlook.es" class="btn">Contactar <i class="far fa-envelope"></i></a>
+        </div>
+        <img class="about-img" src="img/img_about.png" alt="" />
+      </section>
+      <hr class="divider"/>
+
+      <!-- SKILL SET -->
+      <section class="skill-set" id="mi_skill_set"> 
+        <p class="knowledge-title">Mis conocimientos...</p>
+        <div class="skills">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-java"></i>
+          </div>
+          <div class="skill">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div class="skill">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="skill">
+            <i class="fas fa-terminal"></i>
+          </div class="skill">
+          <div class="skill">
+            <i class="fab fa-linux"></i>
+          </div class="skill">
+        </div>
+      </section>
+      <hr class="divider"/>
+
+      <!-- PROJECTS -->
+      <section class="projects-cards" id="mi_projects">
+        <div class="card">
+          <img src="img/pexels-photo-1516680-removebg-preview.png" alt="" />
+          <div class="right-column">
+            <p class="project-name">Simulador Elecciones Paso</p>
+            <p class="project-tech-used">Tecnologias: <span>Java</span></p>
+            <p class="project-desc">Proyecto final para la materia de POO de la carrera Lic en Sistemas. La finalidad de este proyecto era crear una simulacion del sistema de votos para las elecciones PASO.</p>
+            <div class="projects-links">
+              <a href="https://github.com/TallerPoo2021/EleccionesPASO2021" class="btn-oval" target="_blank">Repo <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/pexels-photo-1516680-removebg-preview.png" alt="" />
+          <div class="right-column">
+            <p class="project-name">Parque de Atracciones</p>
+            <p class="project-tech-used">Tecnologias: <span>Java - SQLite</span></p>
+            <p class="project-desc">Proyecto final para el curso de Argentina Programa. El objetivo del proyecto era cualquier usuario pueda loguearse y comprar entradas, ver inventario, etc.</p>
+            <div class="projects-links">
+              <a href="https://github.com/TallerPoo2021/EleccionesPASO2021" class="btn-oval" target="_blank">Repo <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="divider"/>
+
+      <!-- CONTACT -->
+      <section class="contact" id="mi_contact">
+        <div class="section-form">
+          <p class="contact-tittle">Contáctame</p>
+          <form class="form">
+            <input class="form-name" type="text" placeholder="Nombre" />
+            <input class="form-email" type="email" placeholder="Email" />
+            <textarea placeholder="Ingrese su mensaje aqui"></textarea>
+            <input type="submit" class="btn  form-send"></input>
+          </form>
+        </div>
+        <div class="social">
+          <p class="contact-tittle">Redes Sociales</p>
+          <a href="https://twitter.com/kevinkling15" target="_blank"><i class="fab fa-twitter" target="_blank"></i></a>
+          <a href="https://www.instagram.com/kevinkling15/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kevinkling15/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/kevinkling" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://wa.me/+543454186154" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="end">
+        <h6>Hecho con <i class="fas fa-heart"></i></h6>
+      </div>
+      <div class="to-home">
+        <a href="#"><i class="fad fa-chevron-double-up"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
