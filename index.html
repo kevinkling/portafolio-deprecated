@@ -122,9 +122,10 @@
         <div class="section-form">
           <p class="contact-tittle">Contáctame</p>
           <form class="form" name="contacto" method="POST" data-netlify="true">
-            <input class="form-name" type="text" placeholder="Nombre" />
-            <input class="form-email" type="email" placeholder="Email" />
-            <textarea placeholder="Ingrese su mensaje aqui"></textarea>
+            <input name="name" class="form-name" type="text" placeholder="Nombre" />
+            <input name="email" class="form-email" type="email" placeholder="Email" />
+            <textarea name="message" placeholder="Ingrese su mensaje aqui"></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" class="btn  form-send"></input>
           </form>
         </div>
